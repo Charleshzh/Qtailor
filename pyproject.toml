@@ -1,0 +1,30 @@
+[project]
+name = "qtailor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ray[rllib]==2.8.1",
+    "torch",
+    "torchvision",
+    "torchaudio",
+    "qiskit==1.3.1",
+    "qiskit-aer",
+    "loguru",
+    "gymnasium",
+    "matplotlib",
+    "pylatexenc",
+    "pyyaml",
+    "munch",
+    "pyvis",
+    "dm_tree",
+    "scikit-image",
+    "lz4",
+    "seaborn",
+    "shared-memory-dict",
+    "tensorboard",
+    "setuptools<=69.5.1",
+    "numpy==1.26.2",
+    "openpyxl",
+]

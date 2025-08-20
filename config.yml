@@ -1,4 +1,3 @@
-
 env_version: 8
 
 #Iters is the number of batches the model will train on and the number of times your model weights will be updated (not counting minibatches).
@@ -10,7 +9,7 @@ iters_arr:
   - 2
 # relative path of  store in benchmark folder
 circuits:
-  - real_amp/realamprandom_indep_qiskit_6.qasm
+  - qft\qft_indep_qiskit_20.qasm
 
 ##One call to env.step() is one timestep.
 stop_timesteps: 10000000
